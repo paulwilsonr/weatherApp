@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <label for="cityInput">Enter City Name:</label>
+        <input type="text" id="cityInput" name="cityInput">
+        <button id="submitButton">Search</button>
+    </form>
+    <div id="weatherDisplay" class="hidden">
+        <h1 id="city"></h1>
+        <label class="switch">
+            <input id="fOrC" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <h2 id="temp"></h2>
+          <p id="humidity"></p>
+          <h2 id="weather"></h2>
+          <p id="weatherDesc"></p>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
